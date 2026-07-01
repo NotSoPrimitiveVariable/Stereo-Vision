@@ -8,7 +8,7 @@ while True:
     if not ret:
         break
 
-    cv.imshow(frame)
+    cv.imshow("Webcam", frame)
 
     if cv.waitKey(1) & 0xFF == ord("q"):
         break
